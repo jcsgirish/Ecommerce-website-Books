@@ -1,58 +1,54 @@
-.Footer-container{
-    padding-top: 2rem;
-    padding-left: 8rem;
-    color:green;
-    margin-top: 30rem;
+.Footer-container {
+    padding: 2rem 1rem; 
+    color: green;
+    text-align: center; 
 }
- .Form-group{
-    padding-top: 2rem;
+
+.Form-group {
+    padding: 2rem; 
     text-align: center;
     border: 0.2rem solid rgb(236, 236, 236);
     border-radius: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-    margin-right: 7rem;
     background-color: rgb(226, 226, 226);
+    margin: 2rem auto; 
+    max-width: 600px; 
 }
 
-.Form{
+.Form {
     text-align: center;
     border-radius: 1rem;
     padding: 0.5rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
     font-family: caveat;
     font-size: larger;
     margin-top: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgb(34, 34, 34);
     outline: none;
-    width: 40%;
-    
+    width: 100%; 
+    box-sizing: border-box; 
+}
 
-    
-} 
-.form-btn{
+.form-btn {
     margin-top: 1rem;
     background-color: orange;
     border-radius: 1rem;
     border: none;
-    width: 5rem;
+    width: 100px; 
     padding: 0.5rem;
     box-shadow: 0 0 1rem rgb(34, 34, 34);
     text-decoration: none;
     color: rgb(255, 255, 255);
-
+    display: block; 
+    margin: 1rem auto;
+    cursor: pointer;
 }
-.form-btn:hover{
+
+.form-btn:hover {
     background-color: green;
 }
-.Patents{
-   
+
+.Patents {
     margin-top: 5rem;
     font-weight: 200;
     text-align: center;
-    
 }

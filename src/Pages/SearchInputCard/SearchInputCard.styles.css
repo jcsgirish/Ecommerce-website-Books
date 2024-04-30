@@ -48,13 +48,17 @@
     background-color: red;
 
 }
-.SearchInputbtn{
+.SearchInputbtn {
     background-color: orange;
+    padding: 0.5rem 1rem; 
     border: none;
-    padding: 0.3rem;
+    border-radius: 0.5rem;
     text-decoration: none;
     color: white;
+    display: inline-block;
+    cursor: pointer; 
 }
-.SearchInputbtn:hover{
-    color: brown;
+
+.SearchInputbtn:hover {
+    background-color: brown; 
 }

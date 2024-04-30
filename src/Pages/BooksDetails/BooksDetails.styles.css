@@ -1,34 +1,35 @@
-
-.img-container{
-    margin-left: 8rem;
-    margin-top: 7rem;
-
-    
+.img-container {
+    margin-left: 8%;
+    margin-top: 7%;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; 
 }
-.bookdtls-container{
-    width: 60%;
-    margin-top: 5.5%;
-    margin-right: 4rem;
-    font-size: larger;
-   
 
+.bookdtls-container {
+    width: 100%; 
+    max-width: 800px; 
+    margin-top: 3%;
+    margin-right: 4%;
+    font-size: 1em;
 }
-.bookdtls-container p{
- 
+
+.bookdtls-container p {
     margin-bottom: 1rem;
 }
-.Cart-btn{
+
+.Cart-btn {
     background-color: orange;
     color: white;
-    padding: 0.5rem;
+    padding: 0.5em 1em; 
     text-decoration: none;
     cursor: pointer;
     border: none;
 }
-.Cart-btn:hover{
+
+.Cart-btn:hover {
     background-color: black;
 }

@@ -1,48 +1,54 @@
-.navbar-container{
-    position: absolute;
+.navbar-container {
+    position: fixed; 
     top: 0;
     width: 100%;
-    margin: auto;
-    background-color:rgb(109, 106, 106);
-
+    background-color: rgb(109, 106, 106);
 }
-.navbar-content{
+
+.navbar-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
+    padding: 0 20px; 
 }
-.nav-links-container{
+
+.nav-links-container {
     display: flex;
     align-items: center;
-    
 }
-.Cart-link{
-    display: inline-block;
-    padding-right:25px;
-    cursor: pointer;
 
+.Cart-link {
+    display: inline-block;
+    padding-right: 25px;
+    cursor: pointer;
+    color: white; 
+    font-size: 1.5rem; 
 }
-.logo{
-    font-size: 3rem;
+
+.logo {
+    font-size: 2rem; 
     color: white;
     padding-top: 0.5rem;
 }
-.nav-links{
+
+.nav-links {
     font-size: 1.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: Josefin Sans;
-    padding-right: 3rem;
+    padding: 0 1rem; 
     cursor: pointer;
-    
 }
-.nav-links:hover{
+
+.nav-links:hover {
     color: rgb(206, 58, 58);
 }
-.background-dark{
+
+
+.background-dark {
     background-color: #a7a5a5;
 }
-.background-transparent{
+
+.background-transparent {
     background-color: transparent;
 }
