@@ -1,0 +1,28 @@
+.showcase-container{
+   height:100vh;
+    width: 100%;
+    background-image: url('../../../Pages/Pics/books9.jpg');
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.showcase-content{
+    position:absolute;
+    width:fit-content;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+
+

@@ -1,0 +1,48 @@
+.navbar-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    background-color:rgb(109, 106, 106);
+
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-links-container{
+    display: flex;
+    align-items: center;
+    
+}
+.Cart-link{
+    display: inline-block;
+    padding-right:25px;
+    cursor: pointer;
+
+}
+.logo{
+    font-size: 3rem;
+    color: white;
+    padding-top: 0.5rem;
+}
+.nav-links{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Josefin Sans;
+    padding-right: 3rem;
+    cursor: pointer;
+    
+}
+.nav-links:hover{
+    color: rgb(206, 58, 58);
+}
+.background-dark{
+    background-color: #a7a5a5;
+}
+.background-transparent{
+    background-color: transparent;
+}

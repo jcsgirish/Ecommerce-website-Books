@@ -1,0 +1,38 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signupform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 25rem;
+    box-shadow: 0 0 0.5rem black;
+    
+
+}
+.btn{
+     margin-left: 10rem;
+     margin-top: 2rem;
+     padding: 0.7rem;
+     width: 5rem;
+     background-color: orange;
+     color: white;
+     border: none;
+}
+.btn:hover{
+    background-color: brown;
+
+}
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh; /* Adjust the height as needed */
+    background-image: url("../Pics/homepage.jpg"); /* Background color for the signup section */
+    width: 100%;
+}

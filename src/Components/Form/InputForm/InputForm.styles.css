@@ -1,0 +1,30 @@
+
+
+.Input-Form{
+    display: flex;
+    padding: 0.5rem;
+    background-color:white;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px black; 
+}
+
+
+.Input-container{
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: medium;
+    font-family: Josefin Sans;
+}
+.Form-btn{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Form-btn:hover{
+    background-color: chocolate;
+}
