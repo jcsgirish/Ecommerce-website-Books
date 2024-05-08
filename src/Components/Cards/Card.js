@@ -14,7 +14,7 @@ const Card=({BookData})=>{
                         <p>{BookData.author_name}</p>
                         <p>&#8377; <span style={{color:"brown"}}>{BookData.price}</span></p>
                         
-                        <Link to={`/Details/${BookData.id}`} className="product-btn">Add to Cart</Link>
+                        <Link to={`/Details/${BookData.id}`} className="product-btn">Book Details</Link>
 
                     </div>
            </div>

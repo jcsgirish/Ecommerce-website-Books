@@ -28,7 +28,7 @@ const handleSubmit=(e)=>{
 
     return(
         <section className="Footer-container">
-            <h3>Have questions or need assistance? Drop us a line in our Queries section below!  :</h3>
+            <h3>Have questions or need assistance? Drop your Queries below!  :</h3>
 
         <form  onSubmit={handleSubmit} ref={form} className="Form-content">
             <div className="Form-group">

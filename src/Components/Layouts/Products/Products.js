@@ -14,7 +14,7 @@ const ProductsList=()=>{
 
 <div className="Productslist-container">  
 
-{BookData.slice(0,5).map((book)=>(
+{BookData.slice(0,6).map((book)=>(
                  <Card BookData={book} key={book.id}></Card>
 
     ))}

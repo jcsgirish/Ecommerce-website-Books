@@ -26,10 +26,10 @@ const Navbar =({darkTheme})=>{
 
     const showLoginAndSignup = (
     <nav className="nav-links-cotainer">
-        <Link to="/" className="nav-links">Home </Link>
-        <Link to="/books"className="nav-links">books</Link> 
-        <Link to= "/Signup" className="nav-links">Signup</Link>
-        <Link to = "/Login"  className="nav-links">Login</Link>
+        <Link to="/" className="nav-links">HOME</Link>
+        <Link to="/books"className="nav-links">BOOKS</Link> 
+        <Link to= "/Signup" className="nav-links">SIGNUP</Link>
+        <Link to = "/Login"  className="nav-links">LOGIN</Link>
     </nav>
 
     )
@@ -50,7 +50,7 @@ const Navbar =({darkTheme})=>{
         <section className= { darkTheme  ?  'background-dark'  :  'background-transparent navbar-container'  }>
             
          <div className="navbar-content">
-            <h1 className="logo">Book<span style={{color:"Darkorange"}}>Hive</span></h1>
+            <h1 className="logo">Books<span style={{color:"Darkorange"}}>Hive</span></h1>
 
            
             {user ? showLogoutAndCart : showLoginAndSignup}
