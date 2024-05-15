@@ -18,7 +18,7 @@ const Cartcard=({data})=>{
 
             <div className='cart-item'>
                 <div className='cart-item-img'>
-                    <img src={data.book_url} alt='cart-image-item'/>
+                    <img src={data.book_url} alt=''/>
                 </div>
                 <div className='cart-item-content'>
                     <h3>{data.book_name }</h3>

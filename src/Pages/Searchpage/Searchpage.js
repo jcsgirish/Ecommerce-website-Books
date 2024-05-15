@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../Components/Layouts/Navbar/Navbar";
 import Footer from "../../Components/Layouts/Footer/Footer";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { BookData } from "../BookData/BookData";
 import SearchInputCard from "../SearchInputCard/SearchInputcard";
 
@@ -18,7 +18,7 @@ const Searchpage=()=>{
         searchvalue=BookData.filter((data)=>data.book_name.toLowerCase().includes(location.state.toLowerCase()))
         SetSearchResult(searchvalue)
 
-    },[])
+    },[location.state])
 
     return(
         <section>

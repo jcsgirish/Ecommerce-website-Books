@@ -37,7 +37,7 @@ const Navbar =({darkTheme})=>{
         <nav className="nav-links-container">
         <Link to="/" className="nav-links">Home </Link>
         <Link to="/books"className="nav-links">books</Link> 
-        <a  onClick={handlelogout} className="nav-links">Logout</a>
+        <Link to='/Login' onClick={handlelogout} className="nav-links">Logout</Link>
         <Link to = '/cart' className="Cart-link"><Cart/></Link>
         </nav>
     

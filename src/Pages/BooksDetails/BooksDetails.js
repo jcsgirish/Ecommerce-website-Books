@@ -5,6 +5,7 @@ import { BookData } from "../BookData/BookData";
 import { useEffect } from "react";
 import { CartContext, UserContext } from "../../App";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const BooksDetails=()=>{
     const {id} = useParams();
@@ -24,6 +25,7 @@ useEffect(()=>{
     },[id])
 
     const HandletoCart=()=>{
+        
         if(user){
             SetcartItems([...cartItems, data]);
                     alert(`The book ${data.book_name} is added to the cart` )
@@ -40,7 +42,7 @@ useEffect(()=>{
             <div className="BooksDetails-container">
                 <div className="flex-container">
                     <div className="img-container">
-                        <img src={data.book_url}/>
+                        <img src={data.book_url} alt=""/>
                     </div>
                     <div className="bookdtls-container">
                         <h2 style={{color:"black"}}>{data.book_name}</h2>
@@ -56,7 +58,7 @@ useEffect(()=>{
                         <br></br>
 
                         <div>
-                        <a onClick={HandletoCart} className="Cart-btn"> Add to Cart</a>
+                        <Link onClick={HandletoCart} className="Cart-btn"> Add to Cart</Link>
                         </div>
                         
 
